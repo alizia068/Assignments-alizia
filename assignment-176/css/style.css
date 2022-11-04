@@ -1,0 +1,95 @@
+body{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.first-Container{
+  display: flex;
+  width: 400px;
+  height: 50px;
+  justify-content: space-between;
+  background-color: lightgray;
+  padding: 2px;
+  border-radius: 8px ;
+}
+.frist-container-a-div{
+  width: 100px;
+  background-color: white;
+  border-radius: 8px;
+  align-items: center;
+  justify-content: space-around;
+  
+}
+.frist-container-c-div{
+  padding-right: 30px;
+  
+}
+.frist-container-h3{
+  margin-top: 16px;
+}
+.frist-container-h3-a{
+  padding-left: 30px;
+  margin-top: 16px;
+  width: 100px;
+}
+
+.Half-day-class{
+  display: flex;
+  justify-content: space-between;
+}
+.first-div{
+ width: 390px; 
+ border: 1px solid lightgray;
+ padding: 8px;
+ border-radius: 8px;
+ margin-bottom: 20px;
+ 
+}
+.awaiting-button{
+  width: 80px;
+  height: 24px;
+  border-radius: 6px;
+  border: none;
+  color: rgb(176, 117, 6);
+  background-color: rgb(246, 228, 194);
+}
+.approved-button{
+  width: 80px;
+  height: 24px;
+  border-radius: 6px;
+  border: none;
+  color: rgb(6, 219, 81);
+  background-color: rgb(194, 242, 211);
+}
+.declined-button{
+  width: 80px;
+  height: 24px;
+  border-radius: 6px;
+  border: none;
+  color: rgb(254, 17, 40);
+  background-color: rgb(237, 199, 203);
+}
+.nextArrow-button{
+  border-radius: 8px;
+border: none;
+  height: 28px;
+  width: 28px;
+}
+.h-class-1{
+  margin-top: 0;
+  margin-bottom: 2px;
+  color: rgb(150, 149, 149);
+}
+.h-class-2{
+  margin-top: 0;
+  margin-bottom: 2px;
+}
+.h-class-3-a{
+  margin-top: 0;
+  margin-bottom: 2px;
+  color: orange;
+  
+}
+.h-class-3-b{
+  margin-top: 0;
+  margin-bottom: 2px;
+  color: #7ba1ed;
+}
