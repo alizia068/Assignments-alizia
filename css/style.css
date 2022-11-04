@@ -1,0 +1,84 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 400;
+}
+.table-style {
+  width: 1300px;
+  height: 500px;
+  padding: 8px;
+  margin: 100px auto;
+  border-collapse: collapse;
+}
+tr:hover {
+  background-color: rgb(240, 239, 239);
+}
+.table-style thead tr {
+  border-bottom: 1px solid lightgray;
+}
+button:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+thead tr:hover {
+  background-color: inherit;
+}
+tbody tr {
+  border-bottom: 1px solid lightgray;
+}
+th,
+tr {
+  padding: 15px 0;
+}
+button {
+  border: none;
+  opacity: 0.8;
+  transition: 0.3s;
+}
+img {
+  height: 40px;
+  width: 40px;
+  border-radius: 100px;
+}
+.image-name-flex {
+  display: flex;
+  align-items: center;
+}
+h3,
+h4 {
+  padding-left: 8px;
+  margin: 0;
+}
+.disapprove-button {
+  background-color: inherit;
+  color: red;
+  padding: 8px;
+  width: 120px;
+  border-radius: 4px;
+}
+.disapprove-button:hover {
+  background-color: rgb(240, 239, 239);
+}
+.approve-button {
+  background-color: rgb(2, 203, 136);
+  color: white;
+  padding: 8px;
+  width: 90px;
+  border-radius: 4px;
+}
+.more-button {
+  background-color: inherit;
+  padding: 8px;
+  width: 90px;
+  border-radius: 4px;
+}
+th {
+  color: rgb(162, 161, 161);
+}
+td {
+  color: rgb(91, 91, 91);
+}
+.line {
+  height: 2px;
+  border-bottom: 1px solid rgb(216, 214, 214);
+  width: 320%;
+}
