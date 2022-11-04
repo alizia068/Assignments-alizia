@@ -1,0 +1,157 @@
+*{
+  justify-content: center;
+}
+body{
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* .first-heading {
+  padding-left: 12px;
+} */
+.simple {
+  width: 920px;
+  height: 940px;
+  background-color: lightgray;
+  padding: 20px;
+}
+.card {
+  width: 840px;
+  height: 790px;
+  background-color: white;
+  /* margin: 10px; */
+  padding: 30px;
+  border-radius: 10px;
+  margin-left: 20px;
+}
+.card1-parent {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 24px;
+
+}
+.card2-parent {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 24px;
+  margin-bottom: 20px;
+}
+.div-1 {
+  display: grid;
+  grid-template-columns: 50px 1fr;
+  height: 90px;
+  width: 380px;
+  border: 2px solid #67cee5;
+  border-radius: 10px;
+  background-color: #edf3f4;
+  padding: 10px;
+}
+.PTO-style{
+  margin-bottom: 0.2em;
+}
+.div-2 {
+  display: grid;
+  grid-template-columns: 50px 1fr;
+  height: 90px;
+  width: 380px;
+  border: 2px solid lightgray;
+  border-radius: 10px;
+
+  padding: 10px;
+}
+.icon-div {
+  align-self: center;
+  justify-self: end;
+}
+.div-1a {
+  place-self: center;
+  margin-right: 24px;
+  
+}
+.div-2a {
+  place-self: center;
+}
+.parrent-card {
+  row-gap: 10px;
+}
+.date-div1 {
+  display: grid;
+  grid-template-columns: 1fr 40px 1fr;
+  grid-template-rows: 1fr 1fr;
+  width: 300px;
+  height: 100px;
+  margin-bottom: 20px;
+  margin-left: 12px;
+}
+.date-div2 {
+  display: flex;
+  justify-content: space-around;
+  width: 350px;
+  height: 100px;
+}
+.date--div---border1 {
+  border: 1px solid;
+  width: 140px;
+  height: 40px;
+  display: flex;
+  border-radius: 5px;
+  place-self: center;
+  border: 2px solid #67cee5;
+  background-color: #edf3f4;
+  
+}
+.date--div---border2 {
+  border: 1px solid;
+  width: 140px;
+  height: 40px;
+  display: flex;
+  border-radius: 5px;
+  place-self: center;
+   
+}
+.date--div---border-h3 {
+  margin-top: 8px;
+  padding-left: 8px;
+}
+.btn--arrow {
+  place-self: center;
+}
+.date--calender {
+  align-self: center;
+  width: 40px;
+}
+.start-date {
+  grid-column: 1/3;
+  align-self: end;
+  justify-self: start;
+  margin-bottom: 10px;
+}
+.end-date {
+  margin-bottom: 10px;
+  align-self: end;
+  justify-self: start;
+}
+.line {
+  height: 2px;
+  border-bottom: 1px solid rgb(216, 214, 214);
+  width: 100%;
+  margin-bottom: 30px;
+  padding-right: 12px;
+ }
+ .last-heading{
+  
+  margin-bottom: 20px;
+ }
+ 
+ .submit-button-div{
+  float: right;
+ }
+ .submit-button-div-style{
+  background-color: #38a0b7;
+  color: white;
+  border: none;
+  padding: 12px;
+  width: 180px;
+  
+  border-radius: 4px;
+  margin-top: 8px;
+ }
